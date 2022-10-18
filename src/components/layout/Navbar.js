@@ -20,9 +20,13 @@ const Navbar = (props) => {
                     <li className="nav-item">
                     <Link className="nav-link" to="/contact">Contact</Link>
                     </li>
+                    <li>
+                        <Link className="nav-link" to="users/login">Login</Link>
+                    </li>
                 </ul>
                 </div>
                 <Link className="btn btn-outline-light" to="/users/addusers">Add</Link>
+                <Link className="btn btn-outline-light" to="/users/login">Login</Link>
             </div>
         </nav>
     )
