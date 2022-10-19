@@ -23,6 +23,9 @@ const Navbar = (props) => {
                     <li>
                         <Link className="nav-link" to="users/login">Login</Link>
                     </li>
+                    <li>
+                        <Link className="nav-link" to="users/registration">Registration</Link>
+                    </li>
                 </ul>
                 </div>
                 <Link className="btn btn-outline-light" to="/users/addusers">Add</Link>

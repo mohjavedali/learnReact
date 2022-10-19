@@ -10,6 +10,7 @@ import NotFound from './components/pages/NotFound';
 import EditUsers from './components/users/EditUsers';
 import User from './components/users/User';
 import Login from './components/users/Login';
+import Registration from './components/users/Registration';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
           <Route path="/users/editusers/:id" element={<EditUsers/>} />
           <Route path="/users/user/:id" element={<User/>} />
           <Route path="/users/login" element={<Login/>} />
+          <Route path="/users/registration" element={<Registration/>} />
           <Route component={NotFound} />
         </Routes>
       </div>
